@@ -1,0 +1,57 @@
+body {
+	background-color: pink;
+}
+
+h1 {
+	color: grey;
+}
+
+nav {
+	color: blue;
+}
+
+a {
+	color: hotpink;
+}
+
+h2 {
+	color: orange;
+}
+
+p {
+	color: darkblue;
+}
+
+span {
+	color: red;
+}
+
+table {
+	background-color: black;
+	border: 2px solid blue;
+}
+
+th {
+	text-transform: uppercase;
+	color: purple;
+}
+
+td {
+	color: green;
+}
+
+footer {
+	color: white;
+}
+
+ol{
+	color: green;
+}
+
+ul{
+	color: green;
+}
+
+dl {
+	color: green;
+}

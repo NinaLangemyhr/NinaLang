@@ -1,0 +1,32 @@
+body {
+	background-color: red;
+}
+
+h1 {
+	color: black;
+}
+
+nav {
+	color: white;
+}
+
+p {
+	color: white;
+}
+table {
+	background-color: black;
+	border: 2px solid blue;
+}
+
+th {
+	text-transform: uppercase;
+	color: white;
+}
+
+td {
+	color: green;
+}
+
+footer {
+	color: white;
+}
