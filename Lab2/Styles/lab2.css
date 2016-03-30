@@ -27,7 +27,7 @@ span {
 }
 
 table {
-	background-color: black;
+	background-color: grey;
 	border: 2px solid blue;
 }
 
@@ -37,7 +37,7 @@ th {
 }
 
 td {
-	color: green;
+	color: darkgreen;
 }
 
 footer {
