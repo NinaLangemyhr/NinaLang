@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<title>Varukorg</title>
+	<meta charset="utf-8">
+	<link href="Style/hobby.css" rel ="stylesheet">
+</head>
+
+<body>
+<header>
+<h1>Varukorg</h1>
+</header>
+	<table>
+		
+		<tr>
+			<th>Produktbild</th>
+			<th>Produktbeskrivning</th>
+			<th>Antal</th>
+			<th>Pris</th>
+			<th></th>
+		</tr>
+
+		<tr>
+			<td><img src="bilder/klänning1.jpeg" alt="klänning"></td>
+			<td>Klänning</td>
+			<td><input type="number" min="1" max="5" />	</td>
+			<td>499:-</td>
+			<td><img class="korg" src="bilder/skräp.png" alt="skräp"></td>
+		</tr>
+
+			<tr>
+			<td><img src="bilder/klänning2.jpg" alt="klänning"></td>
+			<td>Blå klänning</td>
+			<td><input type="number" min="1" max="5" />	</td>
+			<td>399:-</td>
+			<td><img class="korg" src="bilder/skräp.png" alt="skräp"></td>
+		</tr>
+			<tr>
+			<td><img src="bilder/klänning3.jpg" alt="klänning"></td>
+			<td>Grön klänning</td>
+			<td><input type="number" min="1" max="5" />	</td>
+			<td>499:-</td>
+			<td><img class="korg" src="bilder/skräp.png" alt="skräp"></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Frakt: 30:-</td>
+			<td>Summa: 1 397:-</td>
+			<td><b>Totalpris: 1427:-</b></td>
+		</tr>
+	</table>
+	<form action="kvitto.html">
+	</form>
+
+	<fieldset>
+		<legend>Personuppgifter</legend>
+			<label for="Namn">Namn</label>
+			<input name="Namn"
+			required
+			id="Namn"/><br />
+
+			<label for="Efternamn">Efternamn</label>
+			<input name="Efternamn"
+			required
+			id="Efternamn" /><br />
+
+			<label for="Gata">Gatuadress</label>
+			<input name="Gata"
+			required
+			id="Gata" /><br />
+
+
+			<label for="Postnummer">Postnummer</label>
+			<input name="Postnummer"
+			required
+			id="Postnummer" />
+
+			<label for="Postort">Postort</label>
+			<input name="Postort"
+			required
+			id="Postort" /><br />
+
+
+			<label for="Telefonnummer">Telefonnummer</label>
+			<input name="Telefonnummer"
+			required
+			id="Telefonnummer" /><br />
+
+
+			<label for="Mailadress">Mailadress</label>
+			<input name="Mailadress"
+			required
+			id="Mailadress" /><br />
+			
+		</fieldset>	
+
+		<form action="kvitto.html">
+			<input class="knapp" type="submit" value="Genomför köp" />
+		</form>
+		<footer>
+			Nina Langemyhr Copyright 2016
+		</footer>
+</body>
+
+</html>

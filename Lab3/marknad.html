@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Marknadsundersökning</title>
+		<meta charset="utf-8">
+		<link href="Style/hobby.css" rel ="stylesheet">
+	</head>
+	<body>
+	<header>
+	<h1>Marknadsundersökning</h1>
+	</header>
+		<form>
+		<fieldset>
+			<legend>Allmäna uppgifter</legend>
+				<p>
+				Kön:
+				<br />
+				<label>
+					<input type="radio" name="kön" value="female" />
+					Kvinna
+				</label>
+				<label>
+					<input type="radio" name="kön" value="male" />
+					Man
+				</label>
+				<label>
+					<input type="radio" name="kön" value="hen" />
+					Hen
+				</label>
+			</p>
+			<label>
+				Ålder: <input type="number" name="number" size="30">
+			</label><br />
+		</fieldset>
+		<br />
+		<fieldset>
+			<legend>Hur var ditt köp?</legend>
+			<p>
+				<label for="hear-about">
+				Hur hörde du om oss?
+				</label>
+				<select name="referrer" id="hear-about">
+					<option value="google">Google</option>
+					<option value="kompis">Kompis</option>
+					<option value="tidning">Tidning</option>
+					<option value="other">Annat</option>
+				</select>
+			</p>
+			<p>
+				Kommer du besöka oss igen?
+				<br />
+				<label>
+					<input type="radio" name="besök" value="yes" />
+					Ja
+				</label>
+				<label>
+					<input type="radio" name="besök" value="no" />
+					Nej
+				</label>
+				<label>
+					<input type="radio" name="besök" value="maybe" />
+					Kanske
+				</label>
+			</p>
+			<p>
+				Är du nöjd med leveransen?
+				<br />
+				<label>
+					<input type="radio" name="nöjd" value="yes" />
+					Ja
+				</label>
+				<label>
+					<input type="radio" name="nöjd" value="no" />
+					Nej
+				</label>
+				<label>
+					<input type="radio" name="nöjd" value="sådär" />
+					Sådär
+				</label>
+			</p>
+				<p>
+				Hur upplevde du materialet?
+				<br />
+				<label>
+					<input type="radio" name="material" value="yes" />
+					Ja
+				</label>
+				<label>
+					<input type="radio" name="material" value="no" />
+					Nej
+				</label>
+				<label>
+					<input type="radio" name="material" value="heltokej" />
+					Helt okej
+				</label>
+				
+			</p>
+			<p>
+				Vad tycker du om vår hemsida?
+				<br />
+				<label>
+					<input type="radio" name="hemsida" value="good" />
+					Bra
+				</label>
+				<label>
+					<input type="radio" name="hemsida" value="bad" />
+					Dålig
+				</label>
+				<label>
+					<input type="radio" name="hemsida" value="heltokej" />
+					Helt okej
+				</label>
+			</p>
+				<p>
+				Skulle du rekomendera vår sida till andra?
+				<br />
+				<label>
+					<input type="radio" name="rekomendera" value="yes" />
+					Ja
+				</label>
+				<label>
+					<input type="radio" name="rekomendera" value="no" />
+					Nej
+				</label>
+				<label>
+					<input type="radio" name="rekomendera" value="maybe" />
+					Kanske
+				</label>
+			</p>
+			<p>
+				<label for="comments">
+				Övriga kommentarer:
+				</label>
+				<br />
+				<textarea rows="4" cols="40" id="comments">
+				</textarea>
+			</p>
+				<label>
+					<input type="checkbox" name="subscribe" checked="checked" />
+					Signa upp mig till nyhetsbrev
+				</label>
+				<br />
+				<input type="submit" value="Skicka" />
+		</fieldset>
+		</form>
+		<footer>
+			Nina Langemyhr Copyright 2016
+		</footer>
+	</body>
+</html>
