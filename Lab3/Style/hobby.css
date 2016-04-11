@@ -1,4 +1,4 @@
-fieldset {
+article fieldset {
 	width: 300px;
 	float: left;
 }
@@ -8,10 +8,6 @@ li {
 	border: none;
 	height: 10px;
 	
-}
-.knapp {
-	width: 100px;
-	height: 90px;
 }
 #nav {
 	background-color: lightgrey;
@@ -23,6 +19,7 @@ body {
 }
 h1 {
 	color: darkgrey;
+	font-size: 250%;
 }
 legend {
 	color: black;
@@ -30,10 +27,12 @@ legend {
 img {
 	width: 100px;
 	height: 130px;
+	border-radius: 50px;
 }
 img table {
 	width: 60px;
 	height: 50px;
+
 }
 th, td {
 	
@@ -48,12 +47,30 @@ table {
 	border: 1px solid lightgrey;
 }
 label, input {
-	font-size: 1rem
+	font-size: 1.3em
 }
 footer {
 	background-color: darkgrey;
 	clear: both;
 	padding: 10px;
+}
+.knapp {
+	font-size: 2rem;
+}
+a:visited {
+	color: navy;
+}
+a:hover {
+	color: mistyrose;
+}
+a::first-letter {
+	text-transform: uppercase;
+}
+p::before {
+	content: "Se hit!!"; color: red;
+}
+p {
+	font-size: 18px;
 }
 
 
