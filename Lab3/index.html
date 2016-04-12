@@ -3,14 +3,15 @@
 	<head>
 		<title>Min hobby</title>
 		<meta charset="utf-8">
+		<meta name="description" content="klänningar">
+		<meta name="keywords" content="vardagsklänningar, festklänningar, sommarklänningar, långklänning">
+		<meta name="author" content="Nina Langemyhr">
 		<link href="Style/hobby.css" rel ="stylesheet">
 	</head>
 	<body>
 	<header>	
-			<div id="header">
 		<h1>Vardagsklänningar</h1>
-		
-		<div id="nav">
+		<nav>
 			<ul>
 				<li><a href="Sidor/klänningar.html">Klänningar</a></li>
 				<li><a href="Sidor/tröjor.html">Tröjor</a></li>
@@ -18,60 +19,59 @@
 				<li><a href="Sidor/kjolar.html">Kjolar</a></li>
 				<li><a href="Sidor/linnen.html">Linnen/T-shirt</a></li>
 			</ul>
-			</div>
+			</nav>
 	
 	</header>	
-		<article>
+	<article>
 		<fieldset>
 			<legend>Klänning</legend>
 			<img src="bilder/klänning1.jpeg" alt="klänning">
 			<p>
 				Det finns en klänning för varje tillfälle oavsett om det handlar om vardag eller fest, ibland är det till och med samma klänning.
 			</p>
-			<h3>499 SEK</h3>
-		<form action="Sidor/varukorg.html">	
-		<select name="storlek" >
-			<option> Välj storlek </option>
-			<option value="small"> Small </option>
-			<option value="medium"> Medium </option>
-			<option value="large"> Large </option>
-		</select>
-			<input type="number" min="1" max="5" />	
-			<input type="submit" value="Lägg i kundkorg" />
-		</form>	
-
+			<span><strong>499 SEK</strong></span>
+			<form action="Sidor/varukorg.html">	
+				<select name="storlek">
+				<option> Välj storlek </option>
+				<option value="small"> Small </option>
+				<option value="medium"> Medium </option>
+				<option value="large"> Large </option>
+				</select>
+				<input type="number" min="1" max="5" value="1"/>	
+				<input type="submit" value="Lägg i kundkorg" />
+			</form>	
 		</fieldset>
-		</article>
+	</article>
 
-		<article>
+	<article>
 		<fieldset>
 			<legend>Blå klänning</legend>
 			<img src="bilder/klänning2.jpg" alt="klänning">
 			<p>
 				Det finns en klänning för varje tillfälle oavsett om det handlar om vardag eller fest, ibland är det till och med samma klänning.  
 			</p>
-			<h3>399 SEK</h3>
+			<span><strong>499 SEK</strong></span>
 
-		<form action="Sidor/varukorg.html">	
-		<select name="storlek" >
-			<option> Välj storlek </option>
-			<option value="small"> Small </option>
-			<option value="medium"> Medium </option>
-			<option value="large"> Large </option>
-		</select>
-			<input type="number" min="1" max="5" />	
-			<input type="submit" value="Lägg i kundkorg" />
-		</form>	
+				<form action="Sidor/varukorg.html">	
+				<select name="storlek" >
+				<option> Välj storlek </option>
+				<option value="small"> Small </option>
+				<option value="medium"> Medium </option>
+				<option value="large"> Large </option>
+				</select>
+				<input type="number" min="1" max="5" value="1" />	
+				<input type="submit" value="Lägg i kundkorg" />
+			</form>	
 		</fieldset>
-		</article>
-		<article>
+	</article>
+	<article>
 		<fieldset>
 			<legend>Grön klänning</legend>
 			<img src="bilder/klänning3.jpg" alt="klänning">
 			<p>
 				Det finns en klänning för varje tillfälle oavsett om det handlar om vardag eller fest, ibland är det till och med samma klänning. 
 			</p>
-			<h3>499 SEK</h3>
+			<span><strong>499 SEK</strong></span>
 
 		<form action="Sidor/varukorg.html">	
 		<select name="storlek" >
@@ -80,7 +80,7 @@
 			<option value="medium"> Medium </option>
 			<option value="large"> Large </option>
 		</select>
-			<input type="number" min="1" max="5" />	
+			<input type="number" min="1" max="5" value="1"/>	
 			<input type="submit" value="Lägg i kundkorg" />
 		</form>	
 		</fieldset>
@@ -92,7 +92,7 @@
 			<p>
 				Det finns en klänning för varje tillfälle oavsett om det handlar om vardag eller fest, ibland är det till och med samma klänning. 
 			</p>
-			<h3>499 SEK</h3>
+			<span><strong>499 SEK</strong></span>
 		
 		<form action="Sidor/varukorg.html">	
 		<select name="storlek" >
@@ -101,7 +101,7 @@
 			<option value="medium"> Medium </option>
 			<option value="large"> Large </option>
 		</select>
-			<input type="number" min="1" max="5" />	
+			<input type="number" min="1" max="5" value="1"/>	
 			<input type="submit" value="Lägg i kundkorg" />
 		</form>	
 		</fieldset>
@@ -113,7 +113,7 @@
 			<p>
 				Det finns en klänning för varje tillfälle oavsett om det handlar om vardag eller fest, ibland är det till och med samma klänning. 
 			</p>
-			<h3>499 SEK</h3>
+			<span><strong>499 SEK</strong></span>
 
 		<form action="Sidor/varukorg.html">	
 		<select name="storlek" >
@@ -122,7 +122,7 @@
 			<option value="medium"> Medium </option>
 			<option value="large"> Large </option>
 		</select>
-			<input type="number" min="1" max="5" />	
+			<input type="number" min="1" max="5" value="1"/>	
 			<input type="submit" value="Lägg i kundkorg" />
 		</form>	
 		</fieldset>
@@ -134,23 +134,23 @@
 			<p>
 				Det finns en klänning för varje tillfälle oavsett om det handlar om vardag eller fest, ibland är det till och med samma klänning. 
 			</p>
-			<h3>499 SEK</h3>
+			<span><strong>499 SEK</strong></span>
 		
 		<form action="Sidor/varukorg.html">	
-		<select name="storlek" >
+		<select name="storlek">
 			<option> Välj storlek </option>
 			<option value="small"> Small </option>
 			<option value="medium"> Medium </option>
 			<option value="large"> Large </option>
 		</select>
-			<input type="number" min="1" max="5" />	
+			<input type="number" min="1" max="5" value="1"/>	
 			<input type="submit"  value="Lägg i kundkorg" />
 		</form>	
 		</fieldset>
 		</article>
 
 		<footer>
-			Nina Langemyhr Copyright 2016
+			<p><small>Nina Langemyhr &copy; 2016</small></p>
 		</footer>
 
 	</body>
