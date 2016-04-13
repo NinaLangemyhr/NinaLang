@@ -1,0 +1,10 @@
+section, aside {
+	border: 3px solid blue;
+}
+ul li {
+	display: inline;
+	padding: 15px;
+}
+input {
+	float: right;
+}
