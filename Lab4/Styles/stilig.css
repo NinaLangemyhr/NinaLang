@@ -4,7 +4,7 @@ body {
 	background-attachment: fixed;
 	
 }
-ul li {
+nav ul li {
 	display: inline;
 	padding: 15px;
 }
@@ -63,6 +63,7 @@ p {
 	text-align: left;
 	font-family: "Open Sans Condensed", Georgia, Lucida;
 }
+
 h1 {
 	font-size: 28px;
 	font: bold;
@@ -73,7 +74,7 @@ h1 {
 	position: relative;
 	top: -110px;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 	color: white;
 	background-color: #6C513F;
 	background-size: 50px;
@@ -86,7 +87,7 @@ h1 {
 	position: relative;
 	top: -110px;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 	color: white;
 	background-color: #6C513F;
 	border: 1px solid #453E41;
@@ -98,7 +99,7 @@ h1 {
 	position: relative;
 	top: -110px;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 	color: white;
 	background-color: #6C513F;
 	border: 1px solid #453E41;
@@ -110,7 +111,7 @@ h1 {
 	position: relative;
 	top: -110px;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 	color: white;
 	background-color: #6C513F;
 	border: 1px solid #453E41;
@@ -121,7 +122,7 @@ h1 {
 	position: relative;
 	top: -110px;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 	color: white;
 	background-color: #6C513F;
 	border: 1px solid #453E41;
@@ -132,7 +133,7 @@ h1 {
 	position: relative;
 	top: -110px;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 	color: white;
 	background-color: #6C513F;
 	border: 1px solid #453E41;
@@ -152,4 +153,18 @@ figure p a {
 figure p a:hover {
 	color: #EEE4D0;
 }
-
+.nyhetsbrev {
+	margin-top: 10px;
+	float: right;
+}
+.mammabarn {
+	width: 100%;
+	margin-left: 1%;
+	margin-top: 1%
+}
+input[type="submit"] {
+	margin-top: 10px;
+	background-color: #4BAFFA;
+	border: 2px solid #4BAFFA;
+	color: white;
+}
