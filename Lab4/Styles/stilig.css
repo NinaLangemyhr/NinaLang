@@ -22,15 +22,16 @@ input {
 	height: 250px;
 }
 aside img {
-	width: 90%;
+	width: 75%;
 	border: 2px solid #6C513F;
 	margin: 2px;
 }
 .cta {
-	width: 220px;
+	width: 100%;
 	height: 240px;
 	border: 2px solid #6C513F;
 	margin-top: 100px;
+	margin-left: 3%;
 }
 .streck {
 	padding: 10px;
@@ -78,6 +79,8 @@ h1 {
 	background-size: 50px;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
+	width: 100%
+	margin-left: 3%;
 }
 .redskap {
 	position: relative;
@@ -88,6 +91,8 @@ h1 {
 	background-color: #6C513F;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
+	width: 100%
+	margin-left: 5%;
 }
 .recept {
 	position: relative;
@@ -98,6 +103,8 @@ h1 {
 	background-color: #6C513F;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
+	width: 100%
+	margin-left: 3%;
 }
 .rehab {
 	position: relative;
@@ -108,6 +115,7 @@ h1 {
 	background-color: #6C513F;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
+	width: 75%
 }
 .balans {
 	position: relative;
@@ -118,6 +126,7 @@ h1 {
 	background-color: #6C513F;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
+	width: 75%
 }
 .mamma {
 	position: relative;
@@ -128,5 +137,19 @@ h1 {
 	background-color: #6C513F;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
+	width: 75%
+}
+aside p a {
+	color: white;
+
+}
+aside p a:hover {
+	color: #EEE4D0;
+}
+figure p a {
+	color: white;
+}
+figure p a:hover {
+	color: #EEE4D0;
 }
 
