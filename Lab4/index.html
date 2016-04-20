@@ -1,9 +1,9 @@
 <!doctype html>
-<html>
+<html lang="sv">
 	<head>
-		<link href="../bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.6-dist/css/bootstrap.css">
 		<link href="Styles/stilig.css" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>PT@home</title>
 		<meta charset="utf-8">
 		<meta name="description" content="En sida med träning som passar alla">
@@ -13,39 +13,44 @@
 	<body>
 		<div class="container">
 			<header>
-				<section class="row">
+				<div class="row">
 					<div class="col-sm-2 col-md-3">
-						<img src="bilder/logga1.png" alt="företagslogga">
+						<a href="index.html"><img class="img-responsive" src="bilder/logga1.png" alt="företagslogga"></a>
 					</div>
 					<div class="col-sm-10 col-md-9">
 						<input type="search" name="search"
 						placeholder="Sök blogginlägg" />
-						<input type="image" src="bilder/varukorg.jpg" class="varukorg" />
+						<input type="image" src="bilder/varukorg.jpg" alt="varukorg" class="varukorg" />
 					</div>	
-				</section>
-				<section class="row">
+				</div>
+				<div class="row">
 					<div class="col-sm-2 col-md-3">
 					</div>
 						<nav class="col-sm-10 col-md-9">
 							<ul>
 								<li><a href="produktsida.html">Produktsida</a></li>
-								<li><a href="träning.html">Träning</a></li>
-								<li><a href="mat.html">Mat</a></li>
-								<li><a href="inspiration.html">Inspiration</a></li>
-								<li><a href="medlemskap.html">Medlemskap</a></li>
-								<li><a href="blogg.html">Blogg</a></li>
-								<li><a href="kontakt.html">Kontakt</a></li>
-								<li><a href="shop.html">Shop</a></li>
+								<li><a href="produktsida.html">Träning</a></li>
+								<li><a href="produktsida.html">Mat</a></li>
+								<li><a href="produktsida.html">Inspiration</a></li>
+								<li><a href="produktsida.html">Medlemskap</a></li>
+								<li><a href="produktsida.html">Blogg</a></li>
+								<li><a href="produktsida.html">Kontakt</a></li>
+								<li><a href="produktsida.html">Shop</a></li>
 							</ul>
 						</nav>
-				</section>			
+				</div>			
 			</header>
 			<div class="ram1">
 			<div class="row">
-				<section class="col-sm-9 col-md-8">
+				<div class="col-sm-9 col-md-8">
 					<article class="produktsida">
-						<img src="bilder/tränare.jpg" class="ledare" alt="bild på tränarna" />
-						<h1>PT@HOME</h1>
+					<figure class="figure1">
+						<img src="bilder/tränare.jpg" class="ledare img-resposive" alt="bild på tränarna" />
+						<figcaption>
+							En bild på tränarna
+						</figcaption>
+					</figure>	
+						<h2>PT@HOME</h2>
 						<p>Varför lägga en massa pengar på dyra träningsredskap som crosstrainer och löpband? Eller varför spendera de på dyra gym-avgifter när du enkelt kan träna hemma?</p>
  
 						<p>Tillsammans med en personlig tränare utformar ni ett personligt träningsprogram för din styrketräning med lättare hantlar, eller om du hellre  önskar att fokusera på att träna mage, träna rumpan eller på dina ryggövningar hemma. Valet är ditt!</p>
@@ -54,55 +59,62 @@
 							 
 						<p>För oss är det viktigaste DIN hälsa och att DU mår bra, därför ger vi dig alltid gratis tips på dieter och hälsokost så att du får i dig viktiga kalorier och  nödvändiga vitaminer och slipper att äta proteinpulver och kosttillskott! 
 						</p>
+					<video controls="controls">
+						<source src="Filmer/MrBean.webm" type="video/webm" />	
+						<source src="Filmer/MrBean.ogv" type="video/ogg" />
+						<source src="Filmer/MrBean.mp4" type="video/mp4" />
+					</video>	
 					</article>
 					<div class="row">
-						<section class="col-sm-4">
+						<div class="col-sm-4">
 							<figure>
-								<img src="Bilder/bokapt.jpg" class="cta" alt="bild på personliga tränare">
+								<img src="Bilder/bokapt.jpg" class="cta img-resposive" alt="bild på personliga tränare">
 								<p class="boka"><a href="produktsida.html">Boka PT</a></p>
 							</figure>
-						</section>
-						<section class="col-sm-4">
+						</div>
+						<div class="col-sm-4">
 							<figure>
-								<img src="Bilder/recept.jpg" class="cta" alt="bild på en sallad">
+								<img src="Bilder/recept.jpg" class="cta img-resposive" alt="bild på en sallad">
 								<p class="recept"><a href="mat.html">Recept</a></p>
 							</figure>
-						</section>
-						<section class="col-sm-4">
+						</div>
+						<div class="col-sm-4">
 							<figure>
-								<img src="Bilder/övningar.jpg" class="cta" alt="bild på träningsredskap">
+								<img src="Bilder/övningar.jpg" class="cta img-resposive" alt="bild på träningsredskap">
 								<p class="redskap"><a href="träning.html">Övningar</a></p>
 							</figure>
-						</section>	
+						</div>	
 					</div>
-				</section>
+				</div>
 				<aside class="col-sm-3 col-md-4 streck">
 					<figure>
-						<img src="Bilder/balans.jpg" alt="bild på pt-paket">
+						<img src="Bilder/balans.jpg" class="img-resposive" alt="bild på pt-paket">
 						<p class="balans"><a href="produktsida.html">PT-PAKET BALANS</a></p>
 					</figure>
 					<figure>	
-						<img src="Bilder/mamma.jpg" alt="bild på pt-paket">
+						<img src="Bilder/mamma.jpg" class="img-resposive" alt="bild på pt-paket">
 						<p class="mamma"><a href="produktsida.html">PT-PAKET MAMMA</a></p>
 					</figure>
 					<figure>	
-						<img src="Bilder/rehab.jpg" alt="bild på pt-paket">
+						<img src="Bilder/rehab.jpg" class="img-resposive" alt="bild på pt-paket">
 						<p class="rehab"><a href="produktsida.html">PT-PAKET REHAB</a></p>
 					</figure>	
 				</aside>
 			</div>	
 			<div class="row">
 			<footer>
-				<section class="col-sm-4 col-md-4">
+				<section class="col-sm-4 col-md-4 footer">
 						<h2>Hitta till oss</h2>
-						<img src="Bilder/karta.png" alt="bild på en karta där vi befinner oss" />
-						<small><p>Adress</p></small>
-						<small><p>Stenungsundsvägen 123</p></small>
-						<small><p>123 45 Stenungsund</p></small>
-						<small><p>Telefon: 070-123 45 67</p></small>
-						<small><p>info@ptathome.se</p></small>
+						<img src="Bilder/karta.png" class="img-resposive" alt="bild på en karta där vi befinner oss" />
+						<address>
+							<p><small>Adress:</small></p>
+							<p><small>Stenungsundsvägen 123</small></p>
+							<p><small>123 45 Stenungsund</small></p>
+							<p><small>Telefon: 070-123 45 67</small></p>
+							<p><small>info@ptathome.se</small></p>
+						</address>
 				</section>
-				<section class="col-sm-4 col-md-4">
+				<section class="col-sm-4 col-md-4 footer">
 						<h2>Information</h2>
 						<ul>
 						<li><a href="produktsida.html">Support</a></li>
@@ -117,8 +129,9 @@
 						<p>Signa upp till vårt nyhetsbrev</p>
 						<input type="submit" class="nyhetsbrev" name="subscribe" value="Prenumerera"/>
 						<input type="text" class="nyhetsbrev" name="email" />
-				</footer>
+			
 				</section>
+			</footer>	
 			</div>
 			</div>			
 		</div>			

@@ -4,10 +4,10 @@
 		<link href="../bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
 		<link href="Styles/stilig.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>PT-MAMMA</title>
+		<title>Varukorg</title>
 		<meta charset="utf-8">
-		<meta name="description" content="Här hittar du information om PT-paket mamma">
-		<meta name="keywords" content="PT, pt-träning, mammaträning, rehab, viktnedgång, viktuppgång, fetma, bmi, gravidträning, nybliven mamma, träna efter graviditeten">
+		<meta name="description" content="En sida med träning som passar | Varukorg">
+		<meta name="keywords" content="PT, pt-träning, mammaträning, rehab, viktnedgång, viktuppgång, fetma, bmi, gå ner i vikt, pt-paket, sommarsnygg">
 		<meta name="author" content="Nina Langemyhr">
 	</head>
 	<body>
@@ -42,22 +42,104 @@
 			</header>
 			<div class="ram1">
 			<div class="row">
-				<div class="col-sm-9 col-md-8">
+				<section class="col-sm-9 col-md-8">
 					<article>
-						<img src="bilder/mammabild.jpg" class="mammabarn" alt="bild på en mamma och dess barn" />
-						<h2>PT-paket mamma</h2>
-						<h4>Allt detta ingår i paketet PT-mamma</h4>
-							<ul>
-								<li>Konditionstest och styrketest</li>
-								<li>Personligt sammansatt meny</li>
-								<li>10 st pass med den personliga instruktör, hemma hos dig, de tider som passar</li>
-								<li>Rabatterade erbjudanden hos våra partners</li>
-								<li>Vattenflaska och snygg handduk</li>
-								<li>Tillgång till support</li>
-							</ul>
-							<a href="varukorg.html" class="knapp1">Beställ nu</a>
+						<h2>1. Din shoppingbag</h2>
+						<table>
+		
+							<tr>
+								<th></th>
+								<th>Vara</th>
+								<th>Antal veckor</th>
+								<th></th>
+								<th></th>
+								<th>Totalt</th>
+							</tr>
+
+							<tr>
+								<td><img src="bilder/mammabild.jpg" class="varukorgbild" alt="klänning"></td>
+								<td><strong>PT-paket Mamma</strong></td>
+								<td>
+									<select name="referrer" id="antalveckor">
+										<option value="3 veckor">3 veckor</option>
+										<option value="6 veckor">6 veckor</option>
+										<option value="8 veckor">8 veckor</option>
+										<option value="12 veckor">12 veckor</option>
+									</select>
+								</td>
+								<td></td>
+								<td><img class="tabort" src="bilder/skräp.png" alt="skräp"></td>
+								<td>3 000 kr</td>
+							</tr>
+						</table>
+					<div class="row">
+						<section class="col-sm-12 col-md-12">
+							<h2>2. Leveransadress</h2>
+							<form action="orderbekrätelse.html">
+							<fieldset>
+								<legend>Adress</legend>
+									<label for="Namn">Namn</label>
+									<input name="Namn"
+									required
+									id="Namn"/><br />
+
+									<label for="Efternamn">Efternamn</label>
+									<input name="Efternamn"
+									required
+									id="Efternamn" /><br />
+
+									<label for="Gata">Gatuadress</label>
+									<input name="Gata"
+									required
+									id="Gata" /><br />
+
+
+									<label for="Postnummer">Postnummer</label>
+									<input name="Postnummer"
+									required
+									id="Postnummer" />
+
+									<label for="Postort">Postort</label>
+									<input name="Postort"
+									required
+									id="Postort" /><br />
+
+
+									<label for="Telefonnummer">Telefonnummer</label>
+									<input name="Telefonnummer"
+									required="required"
+									id="Telefonnummer" /><br />
+
+
+									<label for="Mailadress">Mailadress</label>
+									<input name="Mailadress"
+									required
+									id="Mailadress" /><br />
+							</fieldset>						   
+						</section>
+					</div>
+					<div class="row">
+					<section class="col-sm-12 col-md-12">
+						<h2>3. Är du nöjd med ditt köp?</h2>
+						<select name="nöjd" id="nöjd">
+							<option>Är du nöjd med ditt köp?</option>
+							<option value="Ja">Ja</option>
+							<option value="Sådär">Sådär</option>
+							<option value="Överförväntan">Över förväntan</option>
+							<option value="Nej">Nej</option>
+						</select>
+						<br />
+					<label>
+						<input type="checkbox" name="subscribe" checked="checked" />
+						Signa upp mig till nyhetsbrev
+					</label>	
+					</section>
+					</div>
+					<input class="knapp" type="submit" value="Genomför köp" />
+					</form>
+
 					</article>
-				</div>
+				</section>
 				<aside class="col-sm-3 col-md-4 streck">
 					<figure>
 						<img src="Bilder/balans.jpg" alt="bild på pt-paket">

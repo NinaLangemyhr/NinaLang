@@ -8,11 +8,6 @@ nav ul li {
 	display: inline;
 	padding: 15px;
 }
-input {
-	float: right;
-	margin-top: 180px;
-	
-}
 .varukorg {
 	width: 40px;
 }
@@ -20,6 +15,11 @@ input {
 	float: right;
 	width: 250px;
 	height: 250px;
+	margin-top: 10px;
+}
+.figure1 {
+	float: right;
+	font-weight: bold;
 }
 aside img {
 	width: 75%;
@@ -35,7 +35,7 @@ aside img {
 }
 .streck {
 	padding: 10px;
-	border-left: 1px solid #6C513F;
+
 }
 article img {
 	border: 2px solid #6C513F;
@@ -55,8 +55,6 @@ nav ul li a:hover {
 }
 .ram1 {
 	background-color:  #EEE4D0;
-	filter:alpha(opacity=70);
-	-moz-opacity: 0.7;
 	opacity: 0.9;
 }
 p {
@@ -64,11 +62,18 @@ p {
 	font-family: "Open Sans Condensed", Georgia, Lucida;
 }
 
-h1 {
+h1, h2{
 	font-size: 28px;
 	font: bold;
 	font-family: "Open Sans Condensed", Georgia, Lucida;
 	font-weight: bold;
+	text-shadow: 4px 5px 3px #666;
+}
+h1:hover {
+	color: pink;
+}
+h2:hover {
+	color: pink;
 }
 .boka {
 	position: relative;
@@ -80,7 +85,7 @@ h1 {
 	background-size: 50px;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
-	width: 100%
+	width: 100%;
 	margin-left: 3%;
 }
 .redskap {
@@ -92,8 +97,8 @@ h1 {
 	background-color: #6C513F;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
-	width: 100%
-	margin-left: 5%;
+	width: 100%;
+	margin-left: 3%;
 }
 .recept {
 	position: relative;
@@ -104,7 +109,7 @@ h1 {
 	background-color: #6C513F;
 	border: 1px solid #453E41;
 	font-family: sans-serif;
-	width: 100%
+	width: 100%;
 	margin-left: 3%;
 }
 .rehab {
@@ -155,16 +160,84 @@ figure p a:hover {
 }
 .nyhetsbrev {
 	margin-top: 10px;
-	float: right;
+	float: left;
 }
 .mammabarn {
 	width: 100%;
 	margin-left: 1%;
 	margin-top: 1%
 }
+.knapp {
+	margin-top: 10px;
+	background-color: #4BAFFA;
+	border: 2px solid grey;
+	color: white;
+	float: right;
+	font-weight: bold;
+	padding: 5px 2px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 50px;
+}
+.knapp1 {
+	margin-top: 10px;
+	background-color: #4BAFFA;
+	border: 2px solid grey;
+	color: white;
+	float: right;
+	font-weight: bold;
+	padding: 5px 2px;
+	margin-bottom: 10px;
+	width: 100px;
+	text-align: center;
+}
 input[type="submit"] {
 	margin-top: 10px;
 	background-color: #4BAFFA;
-	border: 2px solid #4BAFFA;
+	border: 2px solid grey;
 	color: white;
+	float: none;
+	font-weight: bold;
 }
+input[type="search"] {
+	float: right;
+	margin-top: 180px;
+}
+input[type="image"] {
+	float: right;
+	margin-top: 180px;
+}
+footer {
+	border-top: 1px solid #453E41;
+}
+.footer {
+	border-right: 1px solid #453E41;
+}
+.varukorgbild {
+	width: 150px;
+	height: 150px;
+}
+.tabort {
+	width: 25px;
+	height: 25px;
+}
+th, td {
+	
+	text-transform: uppercase;
+	border-bottom: solid lightgrey;
+}
+fieldset {
+	text-transform: uppercase;
+	border-bottom: solid lightgrey;
+	margin-left: 10px;	
+	display: block;	
+}
+table {
+	border: 1px solid lightgrey;
+}
+article {
+	border-right: 1px solid #6C513F;
+	padding: 10px;
+}
+
+
